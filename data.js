@@ -1,4 +1,4 @@
-export default [
+module.exports = [
   {
     id: "0367baf3-1cb6-4baf-bede-48e17e1cd005",
     name: "Gryffindor",
