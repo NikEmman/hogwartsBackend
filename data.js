@@ -106,14 +106,14 @@ module.exports = [
     commonRoom: "Hufflepuff Basement",
     heads: [
       {
-        id: "a593e800-95dc-47ab-9243-6ac98d2f6ab4",
-        firstName: "Helga",
-        lastName: "Hufflepuff",
-      },
-      {
         id: "fab07935-774e-4eb4-8ed5-621bfe416d85",
         firstName: "Pomona",
         lastName: "Sprout",
+      },
+      {
+        id: "a593e800-95dc-47ab-9243-6ac98d2f6ab4",
+        firstName: "Helga",
+        lastName: "Hufflepuff",
       },
     ],
     traits: [
