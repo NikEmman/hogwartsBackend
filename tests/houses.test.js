@@ -2,6 +2,12 @@ const request = require("supertest");
 const app = require("../index");
 
 describe("GET /houses API", () => {
+  test("Should return response in JSON format", async () => {
+    const response = await request(app).get("/houses");
+    expect(response.status).toBe(200);
+    expect(response.headers["content-type"]).toMatch(/application\/json/);
+  });
+
   test("Should return all houses when no query param is given", async () => {
     const response = await request(app).get("/houses");
     expect(response.status).toBe(200);
